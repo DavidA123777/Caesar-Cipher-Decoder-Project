@@ -6,7 +6,7 @@
 
 
 std::string decoder(std::string encrypt){
-  std::vector<double>eng_frequencies{0.082, 0.015, 0.027, 0.047, 0.13, 0.022, 0.02, 0.062, 0.069, 0.0016, 0.0081, 0.04, 0.027, 0.067, 0.078, 0.019, 0.0011, 0.059, 0.062, 0.096, 0.027, 0.0097, 0.024, 0.0015, 0.02, 0.0078};
+std::vector<double>eng_frequencies{0.082, 0.015, 0.027, 0.047, 0.13, 0.022, 0.02, 0.062, 0.069, 0.0016, 0.0081, 0.04, 0.027, 0.067, 0.078, 0.019, 0.0011, 0.059, 0.062, 0.096, 0.027, 0.0097, 0.024, 0.0015, 0.02, 0.0078};
 //english language eng_frequencies
 
 //count the total size of the string without spaces and punctuation marks to get an accurate percentage later on
@@ -80,39 +80,6 @@ std::vector<double> frequencies(std::string encrypted, int total_characters){
     arr[z] = arr[z] / total_characters;
   }
   return arr;}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-if (encrypted[i] == 'a' || encrypted[i] == 'A'){
-  arr[0] += 1;
-}
-if (encrypted[i] == 'b' || encrypted[i] == 'B'){
-  arr[1] += 1;
-}
-
-
-
-  }
-
-
-}
-*/
-
-
 
 
 
