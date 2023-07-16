@@ -1,10 +1,10 @@
 * Fall 2021 - Lab Cipher
 
-* Last name:Abushlaih
+* Last name: Abushlaih
 
-* First name:David
+* First name: David
 
-* GitHub username:DavidA123777
+* GitHub username: DavidA123777
 
 * Notes: I utilized some of the previous functions I created in lab 06 and created many more functions to loop through the different cipher rotations,
 calculate the frequency each letter appears in each version of the cipher, calculating the distance between each letter frequency with the english frequency vector
@@ -13,32 +13,3 @@ through the distance formula, and also looping through to find the shortest dist
 My code utilized vectors, the distance formula, nested for loops, and frequency percentages from a wikipedia page. My code is commented and all of the necessary
 functions are in funcs.cpp. Main.cpp does a few test cases and there are doctests which test the decoder function.
 
-
-
-
-* General instructions:
-- Fill in your name and GitHub username on top.
-- Use the Notes section to add any notes to the instructor.
-- The part 1 (original) lab description can be found here:
-  https://maryash.github.io/135/labs/lab_06.html
-
-* Specific instructions
-
-Add a new function using the signature ~std::string
-solve(std::string encrypted_string)~ that will use the techniques we discussed in class
-to decode the parameter ~encrypted_string~. That string will be text
-that has been encoded using the Caesar cipher you already wrote.
-
-The ~solve~ function should:
-1. For each of the 26 rotations of encrypted string:
-   1. Make a 26 space vector with the frequencies of all the letters
-      based on *encrypted_string*. Note that entries will be 0 for
-      letters that don't appear in the input string.
-    2. Calculate the distance between this vector and the vector of
-       letter frequencies for English.
-The rotation with the smallest distance should be the solution.
-
-You can add additional functions and place all functionality in files
-that make sense (and/or add new ones).
-
-You should use doctest based tests to show that this works.
