@@ -1,11 +1,4 @@
-* Fall 2021 - Lab Cipher
-
-* Last name: Abushlaih
-
-* First name: David
-
-* GitHub username: DavidA123777
-
+* Fall 2021 - Lab Cipher David Abushlaih 
 * Notes: I utilized some of the previous functions I created in lab 06 and created many more functions to loop through the different cipher rotations,
 calculate the frequency each letter appears in each version of the cipher, calculating the distance between each letter frequency with the english frequency vector
 through the distance formula, and also looping through to find the shortest distance and outputting the string of that rotation.
